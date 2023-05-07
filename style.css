@@ -1,0 +1,149 @@
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 70px;
+    padding-right: 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.container{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+    color: white;
+    border: 1px solid red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+/* .container .songbanner{
+    height: 70vh;
+} */
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+  
+}
+
+.bottom .icons{
+    margin-top: 10px;
+}
+.bottom .icons i{
+    font-size: 20px;
+    width: 25px;
+    height: auto;
+    margin: 0 10px 5px 10px;
+    cursor:pointer
+}
+
+#myprogressbar{
+    margin-top: 0;
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+/* .songbanner{
+
+     background-image: url("flower.jpg");
+} */
+
+
+.songItem{
+    height: 50px;
+    display: flex;
+    border: 1px solid red;
+    background-color: white;
+   
+    color: black;
+    margin: 12px 0;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px 0 0;
+    height: 43px;
+    border-radius: 34px;
+}
+
+.timestamp{
+
+    margin: 0 20px 0 20px;
+}
+
+.timestamp i{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.songbanner{
+    background-color: white;
+    border-radius: 35px;
+   align-items: center;
+   display: flex;
+    
+}
+
+.songlist{
+    margin: 40px;
+}
+
+#songinfo{
+    position: absolute;
+    left: 10vw;
+    margin-top: 30px;
+    padding: 5px 10px 10px 10px;
+    
+}
+
+#songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
